@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #0e0e0e;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-size: 21px;
+  line-height: 140%;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header__hero {
+  height: 100vh;
+  padding: 64px 120px;
+  background-image: url(../images/header-bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header__title {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+  color: #fff;
+}
+
+.logo {
+  width: 190px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 90px;
+  }
+}
+
+.main {
+  padding: 64px 120px;
+}
+
+.section {
+  display: flex;
+  height: 100vh;
+}
+
+.about-us .right-column {
+  width: 30%;
+  background-image: url(../images/history.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.history .left-column {
+  width: 30%;
+  margin-right: 40px;
+  background-image: url(../images/about-us.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.assortment .left-column {
+  width: 100%;
+}
+
+.assortment .right-column {
+  width: 30%;
+  background-image: url(../images/assortment.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
