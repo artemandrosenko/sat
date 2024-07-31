@@ -19,6 +19,24 @@ body {
   box-sizing: border-box;
 }
 
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 15px;
+}
+
+.social-link {
+  margin: 0 40px;
+}
+
 .header__hero {
   height: 100vh;
   padding: 64px 120px;
@@ -56,7 +74,7 @@ body {
 
 .section {
   display: flex;
-  height: 100vh;
+  height: 80vh;
 }
 
 .about-us .right-column {

@@ -8,16 +8,30 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="./style/style.css" />
 </head>
 
 <body>
   <header class="header">
     <div class="header__top">
-      <img src="./images/logo.png" class="logo" alt="SAT logo" />
-      <a href="#menu">
-        <img src="./images/icons/Icon-Burger-menu.png" alt="burger menu icon" />
-      </a>
+      <div class="logo-block">
+        <img src="./images/logo.png" class="logo" alt="SAT logo" />
+        <!-- <a href="#menu">
+          <img src="./images/icons/Icon-Burger-menu.png" alt="burger menu icon" />
+        </a> -->
+      </div>
+
+      <nav class="header__nav">
+        <a class="nav-link" href="#about-us">Про нас</a>
+        <a class="nav-link" href="#history">Досвід</a>
+        <a class="nav-link" href="#assortment">Асортимент</a>
+        <a class="nav-link" href="#shop">Наш магазин</a>
+        <div class="social-link">
+          <a href="https://www.instagram.com/chechotenko_vasilii/"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+          <a href="https://www.youtube.com/@user-zb8kg2qs5s" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </nav>
     </div>
 
     <div class="header__hero">
@@ -31,7 +45,7 @@
     </div>
   </header>
   <main class="main">
-    <section class="section about-us">
+    <section id="about-us" class="section about-us">
       <div class="left-column">
         <h2>Наша компанія займається:</h2>
         <ol>
@@ -45,7 +59,7 @@
       </div>
       <div class="right-column"></div>
     </section>
-    <section class="section history">
+    <section id="history" class="section history">
       <div class="left-column"></div>
       <div class="right-column">
         <h2>Наша історія:</h2>
@@ -62,7 +76,7 @@
         </ul>
       </div>
     </section>
-    <section class="section assortment">
+    <section id="assortment" class="section assortment">
       <div class="left-column">
         <h2>Наш асортимент:</h2>
         <ul>
@@ -72,6 +86,15 @@
           <li>Ароматизатори</li>
           <li>Функціональні препарати </li>
         </ul>
+      </div>
+      <div class="right-column"></div>
+    </section>
+    <section id="shop" class="shop">
+      <div class="left-column">
+        <h2>Наш магазин на prom:</h2>
+       <p>Відвідайте наш магазин на prom та зробіть замовлення:
+        <a href="https://prom.ua/c3828602-sat.html">Магазин SAT</a>
+       </p>
       </div>
       <div class="right-column"></div>
     </section>
