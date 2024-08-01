@@ -31,6 +31,12 @@ body {
 
 .nav-link {
   margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  scale: 1.05;
 }
 
 .social-link {
@@ -38,7 +44,7 @@ body {
 }
 
 .header__hero {
-  height: 100vh;
+  height: 60vh;
   padding: 64px 120px;
   background-image: url(../images/header-bg.jpg);
   background-position: top;
@@ -103,4 +109,14 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.contact-link {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.fa-brands {
+  font-size: 28px;
+  color: white;
 }
