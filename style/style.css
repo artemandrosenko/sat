@@ -68,12 +68,6 @@ body {
   width: 190px;
 }
 
-@media screen and (max-width: 768px) {
-  .logo {
-    width: 90px;
-  }
-}
-
 .main {
   padding: 64px 120px;
 }
@@ -119,4 +113,31 @@ body {
 .fa-brands {
   font-size: 28px;
   color: white;
+}
+
+.sertifications {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sertifications .left-column img {
+  height: 687px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 90px;
+  }
+  .certifications {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .certifications .left-column img {
+    height: auto;
+  }
+
+  .certifications img {
+    max-width: 100%;
+  }
 }
