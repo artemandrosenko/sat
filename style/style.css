@@ -135,6 +135,20 @@ body {
   .logo {
     width: 90px;
   }
+
+  .main {
+    padding: 64px 30px;
+  }
+
+  .section {
+    height: auto;
+  }
+
+  .about-us .right-column,
+  .history .left-column {
+    display: none;
+  }
+
   .certifications {
     display: flex;
     flex-direction: column;
